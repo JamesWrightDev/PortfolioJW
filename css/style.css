@@ -2,22 +2,28 @@
 
 /*Font*/
 
-p,h1,h2,li{
+.logo-icon,h1,h2,li{
 	
 	font-family: 'Playfair Display', serif;
 	font-weight: 200;
+	font-color: #011627;
+
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
 
 }
 
 h1 span {
-	background: darkblue;
-	color: white;
+	background: #FF9F1C	;
+	color: #FDFFFC;
 }
 
 /*Logo*/
 
 .logo {
-	border: solid 2.5px black;
+	border: solid 2.5px #FF9F1C;
 	padding: 0 10px;
 	width: auto;
 	font-family: 'Playfair Display', serif;
@@ -29,6 +35,9 @@ h1 span {
 a {
 	text-decoration: none;
 }
+
+
+
 /*Layout*/
 
 .wrapper {
@@ -49,18 +58,19 @@ a {
 
 }
 
+.hero-title {
+	font-size: 42px;
+	width: 600px;
+	line-height: 50px;
+}
+
 
 .section {
 	flex-direction: column;
 
 }
 
-.hero-title {
-	font-size: 42px;
-	width: 600px;
-	line-height: 50px;
-	
-}
+
 
 .aboutMe  p {
 	width: 500px;
@@ -92,6 +102,6 @@ a {
 }
 
 .nav > ul li:hover {
-	border-bottom: darkblue 2px solid;
+	border-bottom: #011627 2px solid;
 	cursor: pointer;
 }
