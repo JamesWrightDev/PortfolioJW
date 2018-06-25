@@ -15,9 +15,14 @@ p {
 
 }
 
-h1 span {
+.title-highlight {
 	background: #FF9F1C	;
 	color: #FDFFFC;
+}
+
+.title-highlight-alt {
+	background: white;
+	color: black;
 }
 
 /*Logo*/
