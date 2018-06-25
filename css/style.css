@@ -2,7 +2,7 @@
 
 /*Font*/
 
-h1,h2,li{
+p,h1,h2,li{
 	
 	font-family: 'Playfair Display', serif;
 	font-weight: 200;
@@ -36,14 +36,22 @@ a {
 	flex-direction: column;
 	width: 90%;
 	margin: auto;
+	max-width: 1000px;
 
 }
 
 
 .hero {
-	height: 50vh;
+	height: 300px;
 	display: flex;
-	margin-top: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+
+.section {
+	flex-direction: column;
 
 }
 
@@ -52,7 +60,10 @@ a {
 	width: 600px;
 	line-height: 50px;
 	
-	
+}
+
+.aboutMe  p {
+	width: 500px;
 }
 
 
@@ -60,15 +71,11 @@ a {
 /* Nav */
 
 .nav {
-	margin-top: 10px;
+	padding: 10px 10px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background: white;
-	overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 90%; /* Full width */
+
 
 }
 
