@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>James Wright</title></title>
+	<title>James Wright | Web Dev</title></title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
@@ -32,28 +32,40 @@
 			</div>		
 
 
-
-		<div class="aboutMe section">
+<div class="section-container">
+		<div class="aboutMe section-col-6">
 				<h2>About Me</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis maximus posuere. Ut vel commodo ligula. Nullam sollicitudin ultricies cursus.</p>
 			</div>
-		<div class="aboutMe section2col">
+
+		<div class="aboutMe section-col-6 text-align-right">
 				<h2>Skills</h2>
-				<ul>
+				<ul class="skill-list">
 					<li>HTML 5</li>
 					<li>CSS</li>
 					<li>Sass</li>
-					<li>Javacript <em>(Still Learning!)</em></li>
+					<li>Javascript (basic) <em></em></li>
 					<li>Jquery</li>
+					<li>Photoshop</li>
+					<li>Premiere Pro</li>
+					<li>Indesign</li>
+					<em>and still learning!</em>
 				</ul>
+				</div>
 			</div>
+		
+		<h2>Projects</h2>
+		<div class="section-container">
+				<div class="section-col-4">
+					<img class="section-col-4" src="img/lok.png" alt="">
+				</div>
+				<div class="section-col-4">
+					<img class="section-col-4" src="img/gallery.png" alt="">
+				</div>
+				<div class="section-col-4">
+					<img class="section-col-4" src="img/lok.png" alt="">
+				</div>
 
-		<div class="section">
-				<h2>Projects</h2>
-				<div class="project"></div>
-				<div class="project"></div>
-				<div class="project"></div>
-				<div class="project"></div>	
 			</div>
 
 
@@ -78,6 +90,34 @@
 
 
 
+
+</script>
+
+<script>
+	$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
 
 </script>
 	</body>
