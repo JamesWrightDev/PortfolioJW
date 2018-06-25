@@ -32,7 +32,8 @@ h1 span {
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	margin: 0 40px;
+	width: 90%;
+	margin: auto;
 
 }
 
@@ -60,13 +61,12 @@ h1 span {
 	margin-top: 10px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	background: white;
-
 	overflow: hidden;
-    
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 93.3%; /* Full width */
+    width: 90%; /* Full width */
 
 }
 
@@ -82,3 +82,7 @@ h1 span {
 	
 }
 
+.nav > ul li:hover {
+	border-bottom: darkblue 2px solid;
+	cursor: pointer;
+}
