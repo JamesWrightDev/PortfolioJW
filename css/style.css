@@ -5,10 +5,11 @@ body {
 /*Font*/
 .logo-icon, h1, h2, li {
   font-family: "Playfair Display", serif;
-  font-weight: 200; }
+  font-weight: 200;
+  color: #011627; }
 
 p {
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 .title-highlight {
   background: #ff9f1c;

@@ -6,7 +6,8 @@ $color-secondary: #ff9f1c;
 $color-white: #fdfffc;
 
 $serif-font: 'Playfair Display', serif;
-$sans-serif: 'Source Sans Pro', sans-serif;
+$sans-serif: 'Roboto', sans-serif;
+
 
 body {
 	background-color: $color-white;
@@ -19,6 +20,7 @@ body {
 	
 	font-family: $serif-font;
 	font-weight: 200;
+	color: $color-primary;
 
 }
 
