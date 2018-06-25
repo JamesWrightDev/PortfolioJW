@@ -74,9 +74,12 @@ a {
 
 
 
-.aboutMe  p {
+.aboutMe  {
+	width: 50%;
 	
 }
+
+
 
 /*Base Styles*/
 
@@ -106,6 +109,6 @@ footer {
 }
 
 .nav > ul li:hover {
-	border-bottom: #011627 2px solid;
+	border-bottom: #FF9F1C 2px solid;
 	cursor: pointer;
 }
