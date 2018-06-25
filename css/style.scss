@@ -1,0 +1,124 @@
+/*https://coolors.co/011627-fdfffc-2ec4b6-e71d36-ff9f1c*/
+
+
+$color-primary: #011627;
+$color-secondary: #ff9f1c;
+$color-white: #fdfffc;
+
+$serif-font: 'Playfair Display', serif;
+$sans-serif: 'Source Sans Pro', sans-serif;
+
+
+
+/*Font*/
+
+.logo-icon,h1,h2,li{
+	
+	font-family: $serif-font;
+	font-weight: 200;
+
+}
+
+p {
+	font-family: $sans-serif
+
+}
+
+.title-highlight {
+	background: $color-secondary;
+	color: $color-white;
+}
+
+.title-highlight-alt {
+	background: $color-white;
+	color: $color-primary;
+}
+
+/*Logo*/
+
+.logo {
+	border: solid 2.5px $color-secondary;
+	padding: 0 10px;
+	width: auto;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/*Layout*/
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: auto;
+	max-width: 1000px;
+
+}
+
+
+.hero {
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.hero-title {
+	font-size: 2.62em;
+	width: auto;
+	line-height: 50px;
+	height: auto;
+}
+
+
+
+
+.section {
+	margin: 0 0 50px 0 ;
+
+}
+
+
+
+.aboutMe  {
+	width: 50%;
+	
+}
+
+
+
+/*Base Styles*/
+
+footer {
+	border-top: solid 2.5px $color-secondary;
+}
+
+/* Nav */
+
+.nav {
+		padding: 10px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+}
+
+
+.nav > ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 10px;
+	
+}
+
+.nav > ul li:hover {
+	border-bottom:$color-secondary 2px solid;
+	cursor: pointer;
+}

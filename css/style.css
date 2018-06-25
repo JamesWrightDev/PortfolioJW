@@ -1,119 +1,76 @@
 /*https://coolors.co/011627-fdfffc-2ec4b6-e71d36-ff9f1c*/
-
 /*Font*/
-
-.logo-icon,h1,h2,li{
-	
-	font-family: 'Playfair Display', serif;
-	font-weight: 200;
-	font-color: #011627;
-
-}
+.logo-icon, h1, h2, li {
+  font-family: "Playfair Display", serif;
+  font-weight: 200; }
 
 p {
-	font-family: 'Source Sans Pro', sans-serif;
-
-}
+  font-family: "Source Sans Pro", sans-serif; }
 
 .title-highlight {
-	background: #FF9F1C	;
-	color: #FDFFFC;
-}
+  background: #ff9f1c;
+  color: #fdfffc; }
 
 .title-highlight-alt {
-	background: white;
-	color: black;
-}
+  background: #fdfffc;
+  color: #011627; }
 
 /*Logo*/
-
 .logo {
-	border: solid 2.5px #FF9F1C;
-	padding: 0 10px;
-	width: auto;
-	font-family: 'Playfair Display', serif;
-	font-weight: 700;
-	font-size: 24px;
-	letter-spacing: 2px;
-}
+  border: solid 2.5px #ff9f1c;
+  padding: 0 10px;
+  width: auto;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 2px; }
 
 a {
-	text-decoration: none;
-}
-
-
+  text-decoration: none; }
 
 /*Layout*/
-
 .wrapper {
-	display: flex;
-	flex-direction: column;
-	width: 90%;
-	margin: auto;
-	max-width: 1000px;
-
-}
-
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  max-width: 1000px; }
 
 .hero {
-	height: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
-
-}
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .hero-title {
-	font-size: 2.62em;
-	width: auto;
-	line-height: 50px;
-	height: auto;
-}
-
-
-
+  font-size: 2.62em;
+  width: auto;
+  line-height: 50px;
+  height: auto; }
 
 .section {
-	margin: 0 0 50px 0 ;
+  margin: 0 0 50px 0; }
 
-}
-
-
-
-.aboutMe  {
-	width: 50%;
-	
-}
-
-
+.aboutMe {
+  width: 50%; }
 
 /*Base Styles*/
-
 footer {
-	border-top: solid 2.5px #FF9F1C;
-}
+  border-top: solid 2.5px #ff9f1c; }
 
 /* Nav */
-
 .nav {
-		padding: 10px 0;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-}
-
-.nav ul {
-	
-
-}
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 .nav > ul li {
-	list-style-type: none;
-	display: inline-block;
-	margin-right: 10px;
-	
-}
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 10px; }
 
 .nav > ul li:hover {
-	border-bottom: #FF9F1C 2px solid;
-	cursor: pointer;
-}
+  border-bottom: #ff9f1c 2px solid;
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
