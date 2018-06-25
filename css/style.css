@@ -52,7 +52,7 @@ a {
 
 .hero {
 	height: 300px;
-	display: flex;
+	display: block;
 	margin-top: 50px;
 	margin-bottom: 50px;
 
@@ -76,12 +76,16 @@ a {
 	width: 500px;
 }
 
+/*Base Styles*/
 
+footer {
+	border-top: solid 2.5px #FF9F1C;
+}
 
 /* Nav */
 
 .nav {
-	padding: 10px 10px;
+	padding: 10px 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
