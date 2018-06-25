@@ -1,7 +1,84 @@
 /*https://coolors.co/011627-fdfffc-2ec4b6-e71d36-ff9f1c*/
 
+/*Font*/
+
+h1,h2,li{
+	
+	font-family: 'Playfair Display', serif;
+	font-weight: 200;
+
+}
+
+h1 span {
+	background: darkblue;
+	color: white;
+}
+
+/*Logo*/
+
+.logo {
+	border: solid 2.5px black;
+	padding: 0 10px;
+	width: auto;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+
+
 /*Layout*/
 
 .wrapper {
-	margin: 0 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 40px;
+
 }
+
+
+.hero {
+	height: 50vh;
+	display: flex;
+	margin-top: 100px;
+
+}
+
+.hero-title {
+	font-size: 42px;
+	width: 600px;
+	line-height: 50px;
+	
+	
+}
+
+
+
+/* Nav */
+
+.nav {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	background: white;
+
+	overflow: hidden;
+    
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 93.3%; /* Full width */
+
+}
+
+.nav ul {
+	
+
+}
+
+.nav > ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 10px;
+	
+}
+
