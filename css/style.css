@@ -8,7 +8,7 @@ body {
   font-weight: 200;
   color: #011627; }
 
-p {
+.skill-list li, p {
   font-family: "Roboto", sans-serif; }
 
 .title-highlight {
