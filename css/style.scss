@@ -9,6 +9,12 @@ $serif-font: 'Playfair Display', serif;
 $sans-serif: 'Roboto', sans-serif;
 
 
+@mixin small {
+	@media (min-width: 768px) {
+		flex-direction: row;
+	}
+}
+
 body {
 	background-color: $color-white;
 }
@@ -88,9 +94,11 @@ a {
 
 .section-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
-	margin-bottom: 50px;	
+	align-items: center;
+	margin-bottom: 50px;
+	@include small;	
 	
 	
 	
@@ -103,7 +111,7 @@ a {
 	
 }
 .section-col-4 {
-	width: 250px;
+	width: 300px;
 	
 }
 

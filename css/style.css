@@ -53,15 +53,19 @@ a {
 
 .section-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 50px; }
+  @media (min-width: 768px) {
+    .section-container {
+      flex-direction: row; } }
 
 .section-col-6 {
   width: 400px; }
 
 .section-col-4 {
-  width: 250px; }
+  width: 300px; }
 
 /*Base Styles*/
 footer {
