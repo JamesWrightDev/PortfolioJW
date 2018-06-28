@@ -9,6 +9,10 @@ body {
   font-weight: 200;
   color: #011627; }
 
+  h2 {
+    width: 100%;
+  }
+
 .skill-list li, p {
   font-family: "Roboto", sans-serif;
   font-weight: 300; }
@@ -57,14 +61,16 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 50px; }
-  @media (min-width: 480px) {
-    .section-container {
-      flex-direction: row; } }
+  
+
+  
 
 .section-col-6 {
-  width: 100%; }
+  width: 90%; 
+  text-align: center;
+  }
 
 .section-col-4 {
   width: 100%;
@@ -83,7 +89,17 @@ footer {
   text-decoration: underline; }
 
 .text-align-right {
-  text-align: right; }
+  text-align: center;
+  border-left: solid 2.5px #ff9f1c;
+  width: 90%;
+  padding-right: 20px;
+  margin-top: 10px;
+   }
+
+
+  .text-align-right li {
+    line-height: 1.5;
+  }
 
 /* Nav */
 .nav {
@@ -110,3 +126,20 @@ footer {
   padding-left: 0; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+@media (min-width: 480px) {
+    .section-container {
+      flex-direction: row;
+       }
+    
+    .text-align-right {
+      width: 25%;
+      text-align: right;
+      }
+
+    .section-col-6 {
+      text-align: left;
+      width: 50%;
+      }
+    }
