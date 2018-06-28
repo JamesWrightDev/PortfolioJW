@@ -51,10 +51,10 @@
 		</div>
 		<h2 class="reveal">Projects</h2>
 		<div class="section-container">
-			<div class="section-col-4 reveal"><img alt="" class="section-col-4" src="img/lok.jpg">
+			<div class="section-col-4 revealProject"><img alt="" class="section-col-4" src="img/lok.jpg">
 			
 			</div>
-			<div class="section-col-4 reveal"><img alt="" class="section-col-4" src="img/gallery.jpg"></div>
+			<div class="section-col-4 revealProject"><img alt="" class="section-col-4" src="img/gallery.jpg"></div>
 		</div>
 	<h2 class="reveal">Contact</h2>		
 <div class="section-container reveal"> 
@@ -78,8 +78,19 @@ window.sr = ScrollReveal({ reset: true });
 
 // Customizing a reveal set
 sr.reveal('.reveal', { 
+	delay: 200,
+	duration: 800,
+	viewFactor: 0.8,
+	scale: 1,
+	reset: false,
+
+
+	 });
+
+sr.reveal('.revealProject', { 
+	delay: 0,
 	duration: 600,
-	viewFactor: 0.9,
+	viewFactor: 0.2,
 	scale: 1,
 	reset: false,
 
